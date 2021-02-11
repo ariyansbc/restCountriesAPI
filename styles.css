@@ -1,0 +1,28 @@
+
+#countries {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1em;
+    margin-top: 2em;
+}
+#country-details {
+    width: 50%;
+   text-align: center;
+    
+}
+#country-details img {
+   width: 300px;
+
+}
+/*  js classes */
+.country {
+  border: 1px solid saddlebrown;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.country-name {
+    font-weight: 500;
+}
+.country button {
+    cursor: pointer;
+}
